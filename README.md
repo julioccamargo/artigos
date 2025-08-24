@@ -13,3 +13,6 @@ O objetivo é documentar o aprendizado, solidificar o conhecimento e criar um po
 * **Artigo 01:** [Como Entrar no Mercado de Trabalho em Tecnologia](01-como-entrar-no-mercado-de-tecnologia.md)
 * **Artigo 02:** CADÊ?
 * 
+### Módulo 2: Guias práticos
+
+* **Guia 01:** [Como criar um site estático na AWS]()
