@@ -8,7 +8,7 @@ Serviço Principal: Amazon S3 (Simple Storage Service)
 3. Liberação de Acesso → Desabilitar a opção "Bloquear todo o acesso público".
 4. Upload do Arquivo → Enviar o index.html para o bucket.
 5. Habilitação do Site → Ativar Hospedagem de site estático, usando index.html como página inicial.
-6. Política de Acesso → Configurar uma Bucket Policy (JSON) permitindo leitura pública (s3:GetObject). ### Peça ajuda à uma IA
+6. Política de Acesso → Configurar uma Bucket Policy (JSON) permitindo leitura pública (s3:GetObject). **Peça ajuda à uma IA**
 
 ✅ Resultado: O site ficou disponível em uma URL pública do S3.
 
