@@ -42,7 +42,7 @@ Pré-requisito → Ter um nome de domínio já registrado (ou utilizar um gráti
 2. Delegação de DNS → Copiar os 4 Name Servers (registros do tipo NS) fornecidos pela AWS na Zona Hospedada.
 3. Atualização no Registrador de Domínio → No painel da empresa onde o domínio, substituir os Name Servers antigos pelos 4 da AWS.
 4. Criação do Registro 'A' → Dentro da Zona Hospedada, criar um registro do tipo 'A' para apontar o nome do domínio para o endereço IPv4 público da instância EC2.
-5 Propagação de DNS → Aguardar a atualização dos Name Servers se espalhar pela internet (pode levar de minutos a horas - 48h).
+5. Propagação de DNS → Aguardar a atualização dos Name Servers se espalhar pela internet (pode levar de minutos a horas - 48h).
 
 ✅ Resultado: O site, antes acessível apenas pelo IP, passou a responder pelo nome de domínio configurado.
 
