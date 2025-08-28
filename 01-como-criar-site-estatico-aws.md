@@ -31,7 +31,7 @@ Serviço Principal: Amazon EC2 (Elastic Compute Cloud)
 
 ✅ Resultado: O site ficou acessível pelo IPv4 público da instância EC2.
 
-### Parte 3: Personalizando seu site - DNS
+### Parte 3: Personalizando o site - DNS
 
 Objetivo: Substituir o acesso via endereço IP por um nome de domínio amigável (ex: www.meusite.com.br).
 Serviço Principal: Amazon Route 53
