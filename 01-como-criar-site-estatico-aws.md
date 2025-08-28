@@ -33,6 +33,19 @@ Serviço Principal: Amazon EC2 (Elastic Compute Cloud)
 
 ### Parte 3: Personalizando seu site - DNS
 
+Objetivo: Substituir o acesso via endereço IP por um nome de domínio amigável (ex: www.meusite.com.br).
+Serviço Principal: Amazon Route 53
+
+Pré-requisito → Ter um nome de domínio já registrado (ou utilizar um grátis, dê um google aí meu velho!)
+
+1. Criação da Zona Hospedada (Hosted Zone) → Inserir o nome do domínio no Route 53 para que a AWS possa gerenciá-lo.
+2. Delegação de DNS → Copiar os 4 Name Servers (registros do tipo NS) fornecidos pela AWS na Zona Hospedada.
+3. Atualização no Registrador de Domínio → No painel da empresa onde o domínio, substituir os Name Servers antigos pelos 4 da AWS.
+4. Criação do Registro 'A' → Dentro da Zona Hospedada, criar um registro do tipo 'A' para apontar o nome do domínio para o endereço IPv4 público da instância EC2.
+5 Propagação de DNS → Aguardar a atualização dos Name Servers se espalhar pela internet (pode levar de minutos a horas - 48h).
+
+✅ Resultado: O site, antes acessível apenas pelo IP, passou a responder pelo nome de domínio configurado.
+
 ### Parte 4: Criar uma aplicação dinâmica - DB
 
 ### Parte 5 (opcional): Automatizar com Terraform - IaC
