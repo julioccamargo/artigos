@@ -100,3 +100,17 @@ Serviços Principais: Amazon RDS (Relational Database Service), Amazon EC2.
 ✅ Resultado: Uma aplicação WordPress totalmente funcional, rodando em uma arquitetura de nuvem segura e desacoplada (servidor web + banco de dados gerenciado), com todo o processo de diagnóstico e correção documentado.
 
 ### Parte 5 (opcional): Automatizar com Terraform - IaC
+O objetivo: Sair do mundo dos cliques manuais e aprender a construir a infraestrutura na AWS de forma automatizada, usando Infraestrutura como Código (IaC).
+Serviços Principais: Terraform e bloco de notas
+1. Preparação do ambiente:
+	1.1 Instalado Terraform CLI vua terminal (uso linux ZorinOS)
+	1.2 Instalado AWS CLI
+	1.3 Criado usuario IAM separado do root e as credenciais salvas
+2. Codificando:
+	2.1 Criar **main.itf**
+	2.2 Registrar os comandos de instância EC2, Security Group e Par de chaves SSH
+3. Executando: Use os comandos **init, plan (para revisar) e apply**
+4. Verificar acesso: Acesse o servidor via SSH com a chave criada
+5. Delete tudo para não gastar recurso: **terraform destroy**
+
+✅ Resultado Final: Uma base de infraestrutura (servidor + firewall + chaves de acesso) criada e gerenciada de forma 100% automatizada
