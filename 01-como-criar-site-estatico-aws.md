@@ -1,4 +1,4 @@
-## Parte 1: Hospedagem de Site Estático com Amazon S3
+### Parte 1: Hospedagem de Site Estático com Amazon S3
 
 Objetivo: Publicar um site HTML simples sem precisar de servidor.
 Serviço Principal: Amazon S3 (Simple Storage Service)
