@@ -46,7 +46,7 @@ Pré-requisito → Ter um nome de domínio já registrado (ou utilizar um gráti
 
 ✅ Resultado: O site, antes acessível apenas pelo IP, passou a responder pelo nome de domínio configurado.
 
-## Parte 4: Dando Vida ao Site com WordPress e um Banco de Dados
+### Parte 4: Dando Vida ao Site com WordPress e um Banco de Dados
 O objetivo: Transformar nosso servidor simples em uma plataforma dinâmica, capaz de rodar um site completo como o WordPress, que precisa de um banco de dados para funcionar.
 A Estratégia: Usamos uma arquitetura profissional, separando o "cérebro" (banco de dados) do "rosto" (o site).
 Serviços Usados: Amazon EC2 (nosso servidor) e Amazon RDS (nosso banco de dados gerenciado).
@@ -60,7 +60,7 @@ Serviços Usados: Amazon EC2 (nosso servidor) e Amazon RDS (nosso banco de dados
 
 ✅ Resultado Final: Um site WordPress rodando na nuvem da AWS, com uma arquitetura segura onde o site (EC2) e o banco de dados (RDS) trabalham juntos, mas de forma separada e protegida.
 
-## Parte 4: Aplicação Dinâmica com Banco de Dados (DB) --- O MEU DEU ERRADO SE QUISER VER O QUE HOUVE
+### Parte 4: Aplicação Dinâmica com Banco de Dados (DB) --- O MEU DEU ERRADO SE QUISER VER O QUE HOUVE
 Objetivo: Criar um banco de dados gerenciado e conectar a uma aplicação web (WordPress) para permitir conteúdo dinâmico.
 Serviços Principais: Amazon RDS (Relational Database Service), Amazon EC2.
 
