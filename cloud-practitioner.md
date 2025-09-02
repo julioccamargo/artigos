@@ -41,21 +41,21 @@
 
 ## Módulo 2: Confiabilidade e estrutura global
 
-## Região
+### Região
 
 * Conformidade com governança e leis locais
 * Proximidade com clientes para diminuir latência
 * Serviços disponíveis podem não existir em determinados locais
 * Preço, leve em consideração os impostos que irão diferenciar os custos de execução para a AWS
 
-## Zonas de disponibilidade
+### Zonas de disponibilidade
 
 * Uma Região consiste em 3 ou mais zonas de disponibilidade
 * São os datacenters de uma região geográfica segura o suficiente para ter alta disponibilidade
 * Locais de borda: Amazon CloudFront usa para armazenar coisas em cache para usuários distantes da hospedagem original, diminuindo a latência
 * AWS Outposts: Estende a infraestrutura da AWS para diferentes locais, inclusive para data center on-premises
 
-## Comoprovisionar recursos
+### Comoprovisionar recursos
 
 * Console da AWS: Interface web intuitiva e completa, AWS Console Mobile Application é bom para monitoramento, alarmes e cobrança
 * AWS Command Line Interface (AWS CLI): Permite controlar via linha de comando, automatizar ações, iniciar serviços, destuir, conectar, etc
@@ -63,14 +63,14 @@
 * AWS Elastic Beanstalk: ferramenta que implanta os recursos para executar tarefas como ajuste de capacidade, balancear carga, auto scaling e monitorar o health da aplicação
 * AWS CloudFormation: IaC, é a infraestutura como código da própria AWS (tipo o Terraform)
 
-### Módulo 3: Redes
+## Módulo 3: Redes
 
 * Amazon VPC: É uma rede virtual privada para os seus recursos, podendo ter sub-redes
 * Gateway de internet: É anexada a uma VPC para garantir tráfgo público
 * Gateway privado virtual: É a VPN cm sua de privada ou seu data center
 * AWS Direct Connect: É uma cpnexão dedicada de um data center e VPC, reduz custos e melhora a banda de tráfego
 
-## Sub-redes
+### Sub-redes
 * Funcionamento parecido com VLAN
 * Públicas: Contém recursos públicos, como um site de loja
 * Privadas: Recursos que devem ser acessados por pessoas específicas, DB, arquivos
@@ -79,7 +79,7 @@
 * Grupo de segurança: É um firewall virtual que controla o tráfego de entrada e saída de uma insância do EC2, por padrão ele nega todo o tráfego de entrada e libera saída. Precisa adicionar no mesmo grupo tudo que você precisa que se comunique (tipo VLAN mesmo)
 * Stateful: Grupo de segurança usa esse filtro de pacotes, eles lembram dos padrões que negam ou liberam
 
-## Redes globais
+### Redes globais
 
 * DNS: É uma lista de tudo, ela converte o IP por um nome de site por exemplo
 * Amazon Route 53: É um serviço WEB de DNS, roteamento de usuários para aplicativos hospedados na AWS. Conecta o cliente aos balanceadores de carga e instâncias EC2. Ele trabalha com o CloudFront ára entregar conteúdo
