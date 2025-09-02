@@ -11,7 +11,7 @@ O objetivo é documentar o aprendizado, solidificar o conhecimento e criar um po
 ### Módulo 1: Fundamentos e Carreira
 
 * **Artigo 01:** [Como Entrar no Mercado de Trabalho em Tecnologia](01-como-entrar-no-mercado-de-tecnologia.md)
-* **Artigo 02:** CADÊ?
+* **Artigo 02:** [Revisão para Certificação AWS Cloud Practitioner](https://github.com/julioccamargo/artigos/blob/main/cloud-practitioner.md)
 * 
 ### Módulo 2: Guias práticos
 
