@@ -1,4 +1,4 @@
-# Anotações para estudos para certificação
+# Anotações para estudos de certificação
 
 ## Modulo 1: Amazon EC2
 
