@@ -2,7 +2,7 @@
 
 Este projeto representa a evolução da hospedagem tradicional em servidores virtuais para uma arquitetura moderna baseada em contêineres, implantada na nuvem da AWS de forma "serverless".
 
-**Você já pode acessar o resultado [aqui](http://15.229.254.255:8080/).
+**Você já pode acessar o resultado [aqui](http://15.229.254.255:8080/).**
 
 ---
 ## 🎯 Objetivo
