@@ -16,3 +16,4 @@ O objetivo é documentar o aprendizado, solidificar o conhecimento e criar um po
 ### Módulo 2: Guias práticos
 
 * **Guia 01:** [Como criar um site estático na AWS](https://github.com/julioccamargo/artigos/blob/main/01-como-criar-site-estatico-aws.md)
+* **Guia 02:** [riando uma aplicação WEB com Docker e ECS](https://github.com/julioccamargo/artigos/blob/main/02-aplicacao-docker-ecs.md)
