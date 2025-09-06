@@ -83,3 +83,46 @@
 
 * DNS: É uma lista de tudo, ela converte o IP por um nome de site por exemplo
 * Amazon Route 53: É um serviço WEB de DNS, roteamento de usuários para aplicativos hospedados na AWS. Conecta o cliente aos balanceadores de carga e instâncias EC2. Ele trabalha com o CloudFront ára entregar conteúdo
+
+##Módulo 4: Armazenamento
+
+**Amazon Elastic Block Store (Amazon EBS)**: Fornece volumes de armazenamento como bloco que você pode usar com EC2, se ncerrar uma instância todos os volumes permanecerão disponíveis
+Use **snapshots** para fazer backup, o primeiro dia é total e depois só o que firam alterados, incremental
+
+**Amazon simple storage service (Amazon S3)**: Oferece armazeamento à nível de objeto. Ele é separado por frequência de uso dos dados:
+* S3 Standart: Alta disponibilidade. Acessados com frequência, no mínimo de 3 Zonas de Disponibilidade
+* S3 Standart - Infrequent Acess (IA): Alta disponibilidade, mas com baixa frequência de acesso
+* S3 One Zone-Infrequent Acess: PAra economizar custos ele usa uma única zona de disponibilidade, mas você pode reproduzia em caso de falha
+* S3 Intelligent-Tiering: Dados sem padrão de acesso, ele move a classe de acordo com esses padrões
+* S3 Glacier Instant Retieval: Alta velocidade para recuperar itens arquivados *instant = instantâneo)
+* S3 Glacier Flexible Retrieval: Itens arquivados que podem ser recuperados em minutos ou horas
+* S3 Glacuer Deep Archive: O mais barato, demora 12 horas para recuperar
+* S3 Outpost: Para arquivar coisas no on-premises, é uma redundância
+
+**Amazon Elastic File System (Amazon EFS): É um serviço regional, várias zonas de disponibilidade podem acessar
+
+**Amazon Relational Database Service (Amazon RDS): Banco de dados relacional, usa consulta estruturada (SQL), são separados em 6 serviços:
+* Amazon Aurora - Alta disponibilidade
+* PostreSQL
+* MySQL
+* MariaDB
+* Oracle Database
+* Microsoft SQL Server
+
+**Amazon DynamoDB**: É um DB **NÃO RELACIONAL = NoSQL** e suas principais características são:
+* Sem servidor
+* Auto scaling
+
+**Amazon Redshift**: É serviço de data warehouse, usado principalmente para Big Data
+
+**AWS Database Migration Service (AWS DMS)**: Serve para migrar bancos de dados para Amazon e durante a migração o DB continua disponível
+
+**Serviços adicionais**:
+* DucumentDB - Compatível com MongoDB
+* Neptune - Banco de dados grafo
+* Quantun LEdger Database (QLDB) - Banco de dados ledger, com registro do histórico de alterações
+* Managed Blockchain - Usado para gerenciar redes blockchain com frameworks de código aberto
+* ElastiCache - Adiciona caadas cache sobre o DB, ajuda a melhorar o tempo de leitura
+* DynamoDB Accelerator (DAX) - É um cache em memóra do DynamoDB
+
+
