@@ -125,4 +125,11 @@ Use **snapshots** para fazer backup, o primeiro dia é total e depois só o que 
 * ElastiCache - Adiciona caadas cache sobre o DB, ajuda a melhorar o tempo de leitura
 * DynamoDB Accelerator (DAX) - É um cache em memóra do DynamoDB
 
+## Módulo 5: Segurança
 
+**AWS Artifact**: É um serviço de auditoria
+**AWS Shield**: Proteção contra DDoS, serviços Standart é grátise tem o Advanced para relatorios detalhados, detecção e mitigação de ataques
+**AWS Key Management Service (AWS KMS)**: Permite usar chaves de criptografia
+**AWS WAF**: É um firewall web para monitorar solicitações, trabalha junto com CloudFront e Application Load Balance
+**Amazon Inspector**: Faz avaliações de segurança automatizadas, depois ele apresenta uma lista de descobertas por ível de gravidade
+**Amazon GuardDuty**: Realiza detecção inteligtente de ameaças para sua infraestreutura e recursos AWS
