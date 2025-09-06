@@ -133,3 +133,109 @@ Use **snapshots** para fazer backup, o primeiro dia é total e depois só o que 
 **AWS WAF**: É um firewall web para monitorar solicitações, trabalha junto com CloudFront e Application Load Balance
 **Amazon Inspector**: Faz avaliações de segurança automatizadas, depois ele apresenta uma lista de descobertas por ível de gravidade
 **Amazon GuardDuty**: Realiza detecção inteligtente de ameaças para sua infraestreutura e recursos AWS
+
+## Módulo 6: Monitoramento
+
+**Amazon CloudWatch**: É um serviço que permite monitorar e gerenciar métricas e configurar alarmes de acordo com os dados, criando gráficos também
+* Alarmes: Vão executar ações automaticamente quando atingidos, ajuda na economia
+* Painel: É personalizável e serve para monitorar e consultar
+
+**AWS CloudTrail**: Registra chamadas de API
+* Insights: Recurso opcional que detecta automaticamente atividades incomuns
+
+**AWS Trusted Advisor**: Inspeciona seu ambiente e faz recomendações em tempo real em cinco categorias: otimização de custos, desempenho, segurança, tolerância a falhas e limites de serviço
+
+## Módulo 7: Preços e suporte
+
+### Preços
+
+**Nível gratuito da AWS**
+* Sempre gratuito
+* 12 meses grátis
+* Versões de teste
+
+**Precificação**
+* Pague somente pelo que usar
+* Pague menos ao fazer reserva
+* Pague menos com descontos baseados em voluda, qunando usar mais (ex: quanto mais armazenamento do S3 você usar, mais caro fica)
+
+**Calculadora de preços da AWS**: Permite fazer uma estimativa de custos
+
+**Painel de Faturamento e Gerenciamento de custos da AWS**
+* Compare o saldo atual do mês acumulado com o mês anterior e obtenha uma previsão do próximo mês com base no uso atual
+* Visualize os gastos do mês acumulado por serviço
+* Visualize o uso do nível gratuito por serviço
+* Acesse o Cost Explorer e crie orçamentos
+* Adquira e gerencie o Savings Plans
+* Publique AWS relatório de uso e custo
+
+**Cobrança consolidada**: Você recebe uma única fatura quando AWS Organizations está configurado
+
+**AWS Budgets**
+* Criar orçamentos para planejar o uso, custos e reservas
+* Definir alertas para os custos próximos de estourar ou estourados
+
+**AWS Cost Explorer**: É uma ferramento que permite visualizar, interpretar e gerencias seus custos
+
+### Suporte
+
+**Planos do AWS Support**
+* Basic: Oferecidos à todos e grátis
+* Desenvolvedor
+* Empresarial
+* Empresarial rápido
+* Empresarial de grande porte
+
+**Technical Account Manager (TAM)**: Nos planos Rápido e Grande Porte está incluído um TAM
+
+### AWS Marketplace
+
+É um catálogo digital com ofertas de software
+
+## Módulo 8: Migração
+
+### AWS Cloud Adoption Framework (AWS CAF)
+Organizado em 6 perspectivas:
+* negócio
+* pessoas
+* governança
+* plataforma
+* segurança
+* operações
+
+### Estratégias de migração
+* redefinição de hospedagem - movimenta as aplicações sem alterações (legado)
+* redefinição de plataforma - faz pequenas modificações
+* refatoração/rearquitetura - faz a reimaginação da aplicação
+* recompra - mudança de licença tradicional para SaaS
+* retenção - manter aplicações essenciais no ambiente de origem
+* retirada - remoção de aplicações desnecessárias
+
+### AWS Snow Family
+
+Dispositivos físicos usados para transporte de dados:
+* AWS Snowcone: Pequeno, usados para computação de borda
+* AWS Snowball:
+- Edge Storage Optimized: Migrações de dados de grande escala e fluxo recorrente
+- Edge Compute Optimized: Recursos de computaçõ poderosos, machine learning, análises complexas
+* AWS Snowmobile: Transferência de dados na escala exabytes
+
+## Módulo 9: AWS Well-Architected Framework
+
+**Ajuda a projetar e operar sistemas confiáveis, seguros, eficientes e econômicos na AWS**
+Possui 6 pilares:
+* Excelência operacional
+* Segurança
+* Confiabilidade
+* Eficiência de desempenho
+* Otimização de custos
+* Sustentabilidade
+
+### Vantagens da computação em nuvem
+
+* Trocar despesa antecipada por despesas variáveis.
+* Benefícios de enormes economias de escala.
+* Parar de tentar adivinhar a capacidade.
+* Aumentar a velocidade e a agilidade.
+* Parar de gastar dinheiro com execução e manutenção de data centers.
+* Ter alcance global em minutos.
