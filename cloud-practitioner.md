@@ -84,7 +84,7 @@
 * DNS: É uma lista de tudo, ela converte o IP por um nome de site por exemplo
 * Amazon Route 53: É um serviço WEB de DNS, roteamento de usuários para aplicativos hospedados na AWS. Conecta o cliente aos balanceadores de carga e instâncias EC2. Ele trabalha com o CloudFront ára entregar conteúdo
 
-##Módulo 4: Armazenamento
+## Módulo 4: Armazenamento
 
 **Amazon Elastic Block Store (Amazon EBS)**: Fornece volumes de armazenamento como bloco que você pode usar com EC2, se ncerrar uma instância todos os volumes permanecerão disponíveis
 Use **snapshots** para fazer backup, o primeiro dia é total e depois só o que firam alterados, incremental
@@ -99,9 +99,9 @@ Use **snapshots** para fazer backup, o primeiro dia é total e depois só o que 
 * S3 Glacuer Deep Archive: O mais barato, demora 12 horas para recuperar
 * S3 Outpost: Para arquivar coisas no on-premises, é uma redundância
 
-**Amazon Elastic File System (Amazon EFS): É um serviço regional, várias zonas de disponibilidade podem acessar
+**Amazon Elastic File System (Amazon EFS)**: É um serviço regional, várias zonas de disponibilidade podem acessar
 
-**Amazon Relational Database Service (Amazon RDS): Banco de dados relacional, usa consulta estruturada (SQL), são separados em 6 serviços:
+**Amazon Relational Database Service (Amazon RDS)**: Banco de dados relacional, usa consulta estruturada (SQL), são separados em 6 serviços:
 * Amazon Aurora - Alta disponibilidade
 * PostreSQL
 * MySQL
